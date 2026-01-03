@@ -68,6 +68,16 @@ interface Translations {
   date: string;
   time: string;
   deleteSymptom: string;
+  quickLinks: string;
+  legal: string;
+  privacyPolicy: string;
+  termsConditions: string;
+  support: string;
+  helpCenter: string;
+  feedback: string;
+  contact: string;
+  followUs: string;
+  rightsReserved: string;
 }
 
 const translations: Record<Language, Translations> = {
@@ -137,6 +147,16 @@ const translations: Record<Language, Translations> = {
     date: 'तारीख',
     time: 'समय',
     deleteSymptom: 'हटाएं',
+    quickLinks: 'त्वरित लिंक',
+    legal: 'कानूनी',
+    privacyPolicy: 'गोपनीयता नीति',
+    termsConditions: 'नियम और शर्तें',
+    support: 'सहायता',
+    helpCenter: 'सहायता केंद्र',
+    feedback: 'प्रतिक्रिया',
+    contact: 'संपर्क करें',
+    followUs: 'हमें फॉलो करें',
+    rightsReserved: 'सर्वाधिकार सुरक्षित',
   },
   en: {
     appName: 'Swasthya Saathi',
@@ -204,6 +224,16 @@ const translations: Record<Language, Translations> = {
     date: 'Date',
     time: 'Time',
     deleteSymptom: 'Delete',
+    quickLinks: 'Quick Links',
+    legal: 'Legal',
+    privacyPolicy: 'Privacy Policy',
+    termsConditions: 'Terms & Conditions',
+    support: 'Support',
+    helpCenter: 'Help Center',
+    feedback: 'Feedback',
+    contact: 'Contact Us',
+    followUs: 'Follow Us',
+    rightsReserved: 'All Rights Reserved',
   },
   bn: {
     appName: 'স্বাস্থ্য সাথী',
@@ -271,6 +301,16 @@ const translations: Record<Language, Translations> = {
     date: 'তারিখ',
     time: 'সময়',
     deleteSymptom: 'মুছুন',
+    quickLinks: 'দ্রুত লিঙ্ক',
+    legal: 'আইনি',
+    privacyPolicy: 'গোপনীয়তা নীতি',
+    termsConditions: 'শর্তাবলী',
+    support: 'সমর্থন',
+    helpCenter: 'সাহায্য কেন্দ্র',
+    feedback: 'প্রতিক্রিয়া',
+    contact: 'যোগাযোগ',
+    followUs: 'আমাদের অনুসরণ করুন',
+    rightsReserved: 'সর্বস্বত্ব সংরক্ষিত',
   },
   mr: {
     appName: 'स्वास्थ्य साथी',
@@ -338,6 +378,16 @@ const translations: Record<Language, Translations> = {
     date: 'तारीख',
     time: 'वेळ',
     deleteSymptom: 'हटवा',
+    quickLinks: 'द्रुत दुवे',
+    legal: 'कायदेशीर',
+    privacyPolicy: 'गोपनीयता धोरण',
+    termsConditions: 'नियम आणि अटी',
+    support: 'समर्थन',
+    helpCenter: 'मदत केंद्र',
+    feedback: 'प्रतिक्रिया',
+    contact: 'संपर्क करा',
+    followUs: 'आम्हाला फॉलो करा',
+    rightsReserved: 'सर्व हक्क राखीव',
   },
   bho: {
     appName: 'स्वास्थ्य साथी',
@@ -405,6 +455,16 @@ const translations: Record<Language, Translations> = {
     date: 'तारीख',
     time: 'समय',
     deleteSymptom: 'हटाईं',
+    quickLinks: 'Quick Links',
+    legal: 'Legal',
+    privacyPolicy: 'Privacy Policy',
+    termsConditions: 'Terms & Conditions',
+    support: 'Support',
+    helpCenter: 'Help Center',
+    feedback: 'Feedback',
+    contact: 'Contact Us',
+    followUs: 'Follow Us',
+    rightsReserved: 'All Rights Reserved',
   },
   mai: {
     appName: 'स्वास्थ्य साथी',
@@ -472,6 +532,16 @@ const translations: Record<Language, Translations> = {
     date: 'तारीख',
     time: 'समय',
     deleteSymptom: 'हटाउ',
+    quickLinks: 'Quick Links',
+    legal: 'Legal',
+    privacyPolicy: 'Privacy Policy',
+    termsConditions: 'Terms & Conditions',
+    support: 'Support',
+    helpCenter: 'Help Center',
+    feedback: 'Feedback',
+    contact: 'Contact Us',
+    followUs: 'Follow Us',
+    rightsReserved: 'All Rights Reserved',
   },
 };
 

@@ -9,6 +9,7 @@ import { CartProvider } from '@/contexts/CartContext';
 import { AuthProvider } from '@/contexts/AuthContext';
 import LoadingScreen from '@/components/LoadingScreen';
 import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 import Index from "./pages/Index";
 import SymptomTracker from '@/components/SymptomTracker';
 import HealthTips from '@/components/HealthTips';
@@ -56,6 +57,7 @@ const App = () => {
                     <Route path="/profile" element={<Profile />} />
                     <Route path="*" element={<NotFound />} />
                   </Routes>
+                  <Footer />
                 </div>
               </BrowserRouter>
             </TooltipProvider>
