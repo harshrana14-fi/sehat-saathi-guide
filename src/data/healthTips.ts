@@ -34,7 +34,7 @@ export const healthTips: HealthTip[] = [
     titleHi: 'खाने को ढककर रखें',
     description: 'Always cover food with a lid or cloth. This keeps flies and dust away from food.',
     descriptionHi: 'खाने को हमेशा ढक्कन या कपड़े से ढककर रखें। इससे मक्खियां और धूल खाने से दूर रहती हैं।',
-    icon: 'pot',
+    icon: 'plate',
     category: 'food-safety',
   },
   {
@@ -70,7 +70,7 @@ export const healthTips: HealthTip[] = [
     titleHi: 'रोज व्यायाम करें',
     description: 'Walk or do light exercise for 30 minutes daily. This keeps your body fit and active.',
     descriptionHi: 'रोज 30 मिनट चलें या हल्का व्यायाम करें। इससे शरीर चुस्त और सक्रिय रहता है।',
-    icon: 'walk',
+    icon: 'activity',
     category: 'fitness',
   },
   {

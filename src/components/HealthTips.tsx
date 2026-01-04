@@ -3,6 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { healthTips } from '@/data/healthTips';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {
+  Toilet,
   Droplets,
   Utensils,
   Moon,
@@ -12,6 +13,8 @@ import {
   Bug,
   Syringe,
   Hand,
+  Carrot,
+  PersonStanding,
 } from 'lucide-react';
 
 // Mapping icon names to actual icon components
@@ -20,10 +23,12 @@ const iconMap: Record<string, React.FC<any>> = {
   droplets: Droplets,
   salad: Utensils,
   pot: Utensils,
+  plate: Carrot,
   moon: Moon,
-  toilet: Home,
+  toilet: Toilet,
   window: Wind,
   walk: User,
+  activity: PersonStanding,
   bug: Bug,
   syringe: Syringe,
 };

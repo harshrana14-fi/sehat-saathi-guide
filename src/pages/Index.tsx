@@ -179,7 +179,7 @@ const Index: React.FC = () => {
                     <p className="text-sm text-muted-foreground">
                       {language === 'hi' ? feature.descHi : feature.descEn}
                     </p>
-                    <div className="mt-3 flex items-center justify-center text-primary font-medium text-sm group-hover:gap-2 transition-all">
+                    <div className="mt-4 flex items-center justify-center text-primary font-large text-base group-hover:gap-2 transition-all">
                       {language === 'hi' ? 'खोलें' : 'Open'}
                       <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                     </div>
