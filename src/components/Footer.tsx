@@ -25,16 +25,20 @@ const Footer: React.FC = () => {
                             {t.welcomeMessage}
                         </p>
                         <div className="flex gap-4 pt-2">
-                            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                            <a href="#" onClick={(e) => e.preventDefault()}
+                                title="Facebook page coming soon" className="text-muted-foreground hover:text-primary transition-colors">
                                 <Facebook className="w-5 h-5" />
                             </a>
-                            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                            <a href="#" onClick={(e) => e.preventDefault()}
+                                title="Twitter page coming soon" className="text-muted-foreground hover:text-primary transition-colors">
                                 <Twitter className="w-5 h-5" />
                             </a>
-                            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                            <a href="#" onClick={(e) => e.preventDefault()}
+                                title="Instagram page coming soon" className="text-muted-foreground hover:text-primary transition-colors">
                                 <Instagram className="w-5 h-5" />
                             </a>
-                            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                            <a href="#" onClick={(e) => e.preventDefault()}
+                                title="Linkedin page coming soon" className="text-muted-foreground hover:text-primary transition-colors">
                                 <Linkedin className="w-5 h-5" />
                             </a>
                         </div>
