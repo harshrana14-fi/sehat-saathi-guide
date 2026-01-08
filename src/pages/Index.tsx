@@ -5,6 +5,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import AppTutorial from '@/components/AppTutorial';
 import HealthNewsPopup from '@/components/HealthNewsPopup';
+import GeminiHealthTip from '@/components/GeminiHealthTip';
 import {
   Heart,
   Activity,
@@ -191,6 +192,16 @@ const Index: React.FC = () => {
               </Card>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Daily Health Tip */}
+      <section className="container mx-auto px-4 py-8">
+        <h2 className="text-2xl font-semibold text-center mb-6">
+          {language === 'hi' ? '🌟 आज का स्वास्थ्य सुझाव' : '🌟 Today\'s Health Tip'}
+        </h2>
+        <div className="max-w-2xl mx-auto">
+          <GeminiHealthTip />
         </div>
       </section>
 
