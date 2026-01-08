@@ -57,6 +57,16 @@ toast.success(
     duration: 3000,
     position: 'bottom-right',
     className: 'toast-sparkle',
+    
+    action: {
+      label: language === 'hi' ? 'कार्ट देखें' : 'View Cart',
+      onClick: () => navigate('/cart'),
+    },
+    classNames: {
+      toast: 'border-2 border-green-500 dark:border-green-400',
+      title: 'text-sm font-medium',
+      actionButton: 'bg-green-600 hover:bg-green-700 dark:bg-green-500 dark:hover:bg-green-600 text-white font-semibold',
+    },
   }
 );
   };
