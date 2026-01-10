@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Heart, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Heart, Facebook, Instagram, Linkedin, Mail, Phone, MapPin,X } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
@@ -128,9 +128,11 @@ const Footer: React.FC = () => {
                                 title="Facebook page coming soon" className="text-muted-foreground hover:text-primary transition-colors">
                                 <Facebook className="w-5 h-5" />
                             </a>
-                            <a href="#" onClick={(e) => e.preventDefault()}
-                                title="Twitter page coming soon" className="text-muted-foreground hover:text-primary transition-colors">
-                                <Twitter className="w-5 h-5" />
+                           <a href="#"onClick={(e) => e.preventDefault()}
+                               title="X page coming soon"
+                               className="text-muted-foreground hover:text-primary transition-colors"
+                               >
+                                <X className="w-5 h-5" />
                             </a>
                             <a href="#" onClick={(e) => e.preventDefault()}
                                 title="Instagram page coming soon" className="text-muted-foreground hover:text-primary transition-colors">
