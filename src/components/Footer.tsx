@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Heart, Mail, Phone, Send } from 'lucide-react';
+import { Heart, Facebook, Instagram, Linkedin, Mail, Phone, Send,X } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useToast } from '@/components/ui/use-toast';
 import { Button } from '@/components/ui/button';
@@ -211,7 +211,29 @@ const Footer: React.FC = () => {
                             </div>
                             <span className="font-bold text-xl text-foreground">{t.appName}</span>
                         </Link>
-                        <p className="text-muted-foreground text-sm leading-relaxed">{t.welcomeMessage}</p>
+                        <p className="text-muted-foreground text-sm leading-relaxed">
+                            {t.welcomeMessage}
+                        </p>
+                        <div className="flex gap-4 pt-2">
+                            <a href="#" onClick={(e) => e.preventDefault()}
+                                title="Facebook page coming soon" className="text-muted-foreground hover:text-primary transition-colors">
+                                <Facebook className="w-5 h-5" />
+                            </a>
+                           <a href="#"onClick={(e) => e.preventDefault()}
+                               title="X page coming soon"
+                               className="text-muted-foreground hover:text-primary transition-colors"
+                               >
+                                <X className="w-5 h-5" />
+                            </a>
+                            <a href="#" onClick={(e) => e.preventDefault()}
+                                title="Instagram page coming soon" className="text-muted-foreground hover:text-primary transition-colors">
+                                <Instagram className="w-5 h-5" />
+                            </a>
+                            <a href="#" onClick={(e) => e.preventDefault()}
+                                title="Linkedin page coming soon" className="text-muted-foreground hover:text-primary transition-colors">
+                                <Linkedin className="w-5 h-5" />
+                            </a>
+                        </div>
                     </div>
 
                     {/* Quick Links */}
